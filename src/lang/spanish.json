@@ -1,7 +1,7 @@
 {
     "commands": {
         "ball8": {
-            "embedName": ["8ball", "La wea aleatoria", "el dado ese", "ese w"],
+            "embedName": ["8ball", "La wea aleatoria", "el dado ese", "ese w", "Respuesta toda aleatoria", "Salu24"],
             "embedDescription": [
                 "si", "no", "no sé w",
                 "confirmo", "desconfirmo",
