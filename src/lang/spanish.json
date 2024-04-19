@@ -1,0 +1,69 @@
+{
+    "commands": {
+        "ball8": {
+            "embedName": ["8ball", "La wea aleatoria", "el dado ese", "ese w"],
+            "embedDescription": [
+                "si", "no", "no sé w",
+                "confirmo", "desconfirmo",
+                "muy skibidi probable", "muy poco probable",
+                "esa pregunta me dio cring",
+                "que pregunta tan caca 🗿",
+                "che si vas a preguntar eso, mejor andate del universo",
+                "yo opino que lo violemos",
+                "por eso odio a los ",
+                "jaja what a pendejo",
+                "no cuentes con ello",
+                "te diría que no, pero como me caes bien te digo que no",
+                "juanito el insano dice que si", "juanito el insano dice que no",
+                "pedrito el insano dice que si", "pedrito el insano dice que no",
+                "pablito el insano dice que si", "pablito el insano dice que no",
+                "sebas el insano dice que si", "sebas el insano dice que no",
+                "no, es manco", "si, es pro",
+                "a ese lo violaron 2 perros"
+            ]
+        },
+        "ping": {
+            "content": [
+                "El ping del bot es {1} ms.",
+                "Ping bien insano: {1} ms",
+                "Ping 🐒: {1}",
+                "El pin pe: {1}"
+            ]
+        },
+        "shitpost": {
+            "content": [
+                "Los momos mas insanos 👻",
+                "Shitpost del bueno",
+                "Wazaaa",
+                "Hola",
+                "Al de arriba reaccionenle con una 🍇",
+                "Horneando momazos",
+                "Yo bien insanote",
+                "Pe",
+                "La insanidad de los momos",
+                "Yo si le sé al chispop",
+                "Esa burra",
+                "1 + 1 = 11 🧠",
+                "Esa mula",
+                "When haces tus momos",
+                "Si pe"
+            ]
+        }
+    },
+    "error": {
+        "limit_char": [
+            "No, muchos caracteres",
+            "Límite de 3800 caracteres 🦤",
+            "Chistoso 🗿",
+            "Ah comediante 🗿",
+            "Por qué la necesidad de superar 3500 caracteres. 🐒",
+            "¿Sabías que el límite es de 3500?, si no, ahora ya lo sabes pedazo de ser vivo con 2 neuronas",
+            "No w",
+            "Simplemente muchos caracteres",
+            "3500 caracteres xdxd",
+            "(Límite caracteres: 3500)",
+            "Tremendo comediante poniendo texto mas grande que la gorda de su madre 🗿.",
+            "When el límite de caracteres es de 3500."
+        ]
+    }
+}
