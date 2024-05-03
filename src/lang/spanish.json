@@ -48,6 +48,22 @@
                 "When haces tus momos",
                 "Si pe"
             ]
+        },
+        "avatar": {
+            "content": [
+                "El avatar de ese pendejo.",
+                "Mas random la foto",
+                "Ese burro",
+                "Y este random",
+                "Habían mejores avatar en la grasa.",
+                "Tiene cara de narco.",
+                "Icono super prime",
+                "avatar.png",
+                "That pendejo",
+                "What a pendejo",
+                "Máquina traga perras",
+                "Eso q"
+            ]
         }
     },
     "error": {
@@ -72,6 +88,16 @@
             "Vos no puedes",
             "Sopas",
             "burro"
+        ],
+        "user_not_exist": [
+            "Ese random no lo encuentro",
+            "No comparte un server conmigo o no existe 🦤",
+            "Sopas, creo que no lo encuentro",
+            "Pamplinas, no lo encuentro",
+            "Flautas, ese pibe no lo conozco (xd)",
+            "Y ese random quien es, parece que no existe.",
+            "Sopas", "Pamplinas (ese quien es)",
+            "wtffffff"
         ]
     },
     "activity": {
@@ -89,7 +115,8 @@
             "🤫🧏🏻‍♂️", "bye bye 🤫🧏🏻‍♂️",
             "haciendo mewing",
             "viendo porno",
-            "usame pe",
+            "usame pe (suena raro)",
+            "hola", "come torta",
             "mas mula",
             "el de abajo es burro",
             "el de arriba es burro",
