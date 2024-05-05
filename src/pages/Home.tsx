@@ -1,10 +1,9 @@
-import logo from '../logo.svg';
+import "../css/Home.css";
 
 export default function Home() {
   return (
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>Chambiado pe</p>
-    </header>
+    <div className="Home">
+      <p>Aún no hay nada xdxd</p>
+    </div>
   )
-}
+} 
