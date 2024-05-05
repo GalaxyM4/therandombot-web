@@ -1,5 +1,6 @@
 import { AppBar, Box, Button, SxProps } from "@mui/material";   
 import "../css/Nav.css";
+import { NavigateFunction } from "react-router-dom";
 
 const NavButtonStyle: SxProps = {
     my: 1.5,
@@ -11,14 +12,18 @@ const NavButtonStyle: SxProps = {
     }
 }
 
-export default function NavBar() {
-    const pages = ["Inicio 👻", "Comandos 🤓", "Soporte 🐒⚒️"];
+export default function NavBar({navHook}: {navHook: NavigateFunction}) {
+    const pages_r: Map<string, string> = new Map();
+    pages_r.set("Inicio 🦄", "/therandombot-web/home");
+    pages_r.set("Comandos 🤓", "/therandombot-web/chamba");
+    pages_r.set("Soporte 🐒⚒️", "/therandombot-web/chamba");
+
     return (
         <AppBar position="static" sx={{background: ""}}>
             <Box className="BoxButtons">
             {
-                pages.map((page) => (
-                <Button key={page} className="NavButton" sx={NavButtonStyle}>
+                Array.from(pages_r.keys()).map((page) => (
+                <Button key={page} className="NavButton" sx={NavButtonStyle} onClick={async () => {navHook(pages_r.get(page)!)}}>
                     {page}
                 </Button>
                 ))
