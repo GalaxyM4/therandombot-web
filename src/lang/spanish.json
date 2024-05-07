@@ -62,9 +62,17 @@
                 "That pendejo",
                 "What a pendejo",
                 "Máquina traga perras",
-                "Eso q"
+                "Eso q", "A ese lo violaron 2 perrros"
             ]
         }
+    },
+    "success": {
+        "channel_set": [
+            "Canal {1} establecido como `{2}`🐒⚒️",
+            "Si, {1} fue establecido como {2}",
+            "Ahora el canal {1} esta funcionando como {2}",
+            "El canal {1} ahora funciona como {2}"
+        ]
     },
     "error": {
         "limit_char": [
@@ -87,7 +95,7 @@
             "Vos q",
             "Vos no puedes",
             "Sopas",
-            "burro"
+            "burro", "mas burro"
         ],
         "user_not_exist": [
             "Ese random no lo encuentro",
@@ -98,7 +106,100 @@
             "Y ese random quien es, parece que no existe.",
             "Sopas", "Pamplinas (ese quien es)",
             "wtffffff"
+        ],
+        "cooldown": [
+            "Pera w, esto tiene cooldown",
+            "Aguanta tu camión ya 🐕 (tiene cooldown)",
+            "Espera mi estimado tragapollas, esto tiene cooldown",
+            "Este comando tiene cooldown, ||esperate pedazo de animal||",
+            "Porque lo ejecutas tan rápido w",
+            "Escuchame pedazo de burro, el comando tiene cooldown ||con todo respeto 😊||",
+            "Más burro, el comando tiene cooldown",
+            "Más lento 🥵, (el comando tiene cooldown)",
+            "Hola, emm el comando tiene cooldown",
+            "Pero que poyas chabañ porque tan rápido.",
+            "¿Sabías que el comando tiene cooldown?, ¿no?, ||pues ahora lo sabes pinches putos pendejos, pendejos putos idiotas pendejos||",
+            "Espera un momentín para que ejecutes el comando de nuevo 🗣️",
+            "Flautas, por qué tan precóz (el comando tiene cooldown)"
+        ],
+        "bot_no_permissions": [
+            "No tengo los permisos pe, {1}",
+            "Necesito el permiso {1} para ejecutar ese comando.",
+            "Hola 🐟, necesito el permiso {1}",
+            "Es que necesito el permiso {1}",
+            "No se puede ejecutar eso porque no tengo el permiso {1} 🐒",
+            "Si quieres ejecutar eso necesito el permiso {1}",
+            "Che loco, necesito el permiso {1} si quieres ejecutar eso.",
+            "Mi rey, necesito el permiso {1} para poder ejecutar ese comando.",
+            "Si no me das el permiso {1} no puedo ejecutar el comando 🗣️"
         ]
+    },
+    "random": {
+        "content": [
+            "1 + 1 = 11 🧠", "A ese lo violaron 2 perrros",
+            "Hola soy omelo chino",
+            "Hablen pe",
+            "Al de arriba reaccionenle con una 🍇",
+            "Al de arriba reaccionenle con una 🐟",
+            "das cring wei",
+            "que",
+            "explica tu momo",
+            "explain your momo",
+            "me gustan las manzanas",
+            "que skibididiantres es esto",
+            "que\nexplica tu momo\nexplain your momo",
+            "buuuuu\nmeme de mierda",
+            "no nos importa skibidiperdedor",
+            "Café?",
+            "Y este random",
+            "Eso qué w",
+            "diablos",
+            "dab peruano",
+            "yo bien insanote",
+            "rroz",
+            "cuenta en decadencia",
+            "tu manco yo pro",
+            "la divina comedia",
+            "el pináculo de la comedia",
+            "distraigan al staff para pasar porno",
+            "OLA\nTienes nobio",
+            "esa bandera no está en el fifa",
+            "Como amanecio la princesa más hermosa\nDe todo mundo de Roblox",
+            "Eres gei?",
+            "Albion online es un mmorpg no lineal, en el que escribes tu propia historia sin limitarte a seguir un camino prefijado.",
+            "you are my sunshine", "asdf",
+            "yo no lo descargo porque ya lo tengo", "eso tilín",
+            "el pepe", "fotosintesis",
+            "JIJIJIJA", "la papu señal",
+            "pero no le di importancia", "gokú le gana",
+            "Mi reacción a tu mamada", "Oe pe que rico",
+            "Para mi el pajaro loco\nera un pajaro normal"
+        ],
+        "users": {
+            "Pomni": "https://cdn.discordapp.com/attachments/1237396848260546580/1237396930569441350/pomni.png",
+            "Pedrooo Craft": "https://cdn.discordapp.com/attachments/1237396848260546580/1237397135406665770/pedrooo_craft.png",
+            "Capitán Perú": "https://cdn.discordapp.com/attachments/1237396848260546580/1237397333239529583/capitan_peru.png",
+            "Gustavo Cadenas": "https://cdn.discordapp.com/attachments/1237396848260546580/1237397777030451352/gustavo_cadenas.png",
+            "Emilio Van Der Linde": "https://cdn.discordapp.com/attachments/1237396848260546580/1237397905535533087/latest.png",
+            "Jonh Doe": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398094711361556/360_F_531378938_xwRjN9e5ramdPj2coDwHrwk9QHckVa5Y.png",
+            "juanitocríticas": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398292237783160/5809aacfa17d70a0ef19dae6a6fefc97.png?",
+            "Momazos Diego": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398408231129108/360.png?",
+            "Rey del Clash Royale": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398509217382470/755.png",
+            "Jonh Xina": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398604906496081/ab67616100005174e1408498d7f528e3671616b1.png",
+            "Marselo": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398700318527588/latest.png",
+            "Maxwell the cat": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398786507018280/cover1.png",
+            "Sinko Peso": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398885182345327/74b205c165fc14877775a9037c00f3f1.png",
+            "Pou": "https://cdn.discordapp.com/attachments/1237396848260546580/1237398982616158379/204979_1.png?",
+            "Pepa pig": "https://cdn.discordapp.com/attachments/1237396848260546580/1237399211352391812/image.png?",
+            "Sanic": "https://cdn.discordapp.com/attachments/1237396848260546580/1237399319854714880/latest.png",
+            "Uvuvwevwevwe Onyetenyevwe Ugwemuhwem Osas": "https://cdn.discordapp.com/attachments/1237396848260546580/1237399561694351434/de38acd0018711734293d661f0c0d3d8ab0fc43a_00.png",
+            "Weegee": "https://cdn.discordapp.com/attachments/1237396848260546580/1237399802367447152/image.png",
+            "SkibidiToilet": "https://cdn.discordapp.com/attachments/1237396848260546580/1237400085130772552/53BQS3TQUJBVRJW6V6XQMU4CAU.png?",
+            "El titán spikerman": "https://cdn.discordapp.com/attachments/1237396848260546580/1237400204437749852/5DCC305B8AB7012F938F37066025ABD293B50F57.png",
+            "Fino Señores": "https://cdn.discordapp.com/attachments/1237396848260546580/1237400316224339988/latest.png",
+            "Juan": "https://cdn.discordapp.com/attachments/1237396848260546580/1237400446696423544/latest.png",
+            "GigaChad": "https://cdn.discordapp.com/attachments/1237396848260546580/1237400563898126417/latest.png"
+        }
     },
     "activity": {
         "0": [
