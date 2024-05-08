@@ -1,4 +1,27 @@
+#mc-text {
+    font-size: 65%;
+    font-family: "Minecraft";
+    color: yellow;
+}
+
+#row-header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
 .Home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header-Home {
+    padding-top: 10px;
+    width: 95%;
+    background: black;
+    background-clip: content-box;
     display: flex;
     align-items: center;
     flex-direction: column;

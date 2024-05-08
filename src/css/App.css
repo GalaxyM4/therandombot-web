@@ -1,6 +1,6 @@
-.Img-Animal {
+.Rotate-IMG {
   height: 40vmin;
-  padding: 20px;
+  padding: 30px;
   pointer-events: none;
 }
 
@@ -12,8 +12,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Img-Animal {
-    animation: Img-Animal-spin infinite 5s linear;
+  .Rotate-IMG {
+    animation: Rotate-IMG-spin infinite 5s linear;
   }
 }
 
@@ -28,7 +28,7 @@
 }
 
 
-@keyframes Img-Animal-spin {
+@keyframes Rotate-IMG-spin {
   from {
     transform: rotate(0deg);
   }
