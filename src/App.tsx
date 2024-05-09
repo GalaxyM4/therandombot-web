@@ -1,15 +1,13 @@
 import "./css/App.css";
 import NavBar from './components/NavBar';
-import { Route, Routes, useNavigate } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Chamba from "./pages/Chamba";
 
 function App() {
-  const navigate = useNavigate();
-
   return (
     <div className="App">
-      <NavBar navHook={navigate}/>
+      <NavBar/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="home" element={<Home />} />

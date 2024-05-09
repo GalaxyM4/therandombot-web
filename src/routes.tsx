@@ -3,7 +3,7 @@ import App from "./App";
 
 const router = createBrowserRouter([
     {
-        path: "/therandombot-web/*",
+        path: "/*",
         element: (<App />),
     }
 ]);
