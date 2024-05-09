@@ -5,15 +5,15 @@ import orangutan from "../images/animals/orangutan.png";
 import sheep from "../images/animals/sheep.png";
 
 import cafe from "../images/shitpost/cafe.png";
-import gato from "../images/shitpost/gato.png";
+import gato from "../images/shitpost/gato_0.png";
 import slungus from "../images/shitpost/slungus.png";
-
+import tanque from "../images/shitpost/tanque.png";
 export default class ImagesLocal {
     static getAnimalArray() {
         return [cow, dodo, monkey, orangutan, sheep];
     }
 
     static getShitpostArray() {
-        return [cafe, gato, slungus];
+        return [cafe, gato, slungus, tanque];
     }
 }
