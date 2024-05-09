@@ -26,3 +26,9 @@
     align-items: center;
     flex-direction: column;
 }
+
+.Header-Home img {
+    width: 10%;
+    height: 10%;
+    padding: 20px;
+}

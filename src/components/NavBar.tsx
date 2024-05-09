@@ -12,20 +12,40 @@ const NavButtonStyle: SxProps = {
 }
 
 export default function NavBar() {
-    const pages_r: Map<string, string> = new Map();
-    pages_r.set("Inicio 🦄", "/home");
-    pages_r.set("Comandos 🤓", "/chamba");
-    pages_r.set("Soporte 🐒⚒️", "/chamba");
+    const pages_r: Map<string, {txt: string, blank: boolean}> = new Map();
+    pages_r.set("Inicio 🦄", {
+        txt:  "/home",
+        blank: false
+    });
+    pages_r.set("Comandos 🤓", {
+        txt:  "/chamba",
+        blank: false
+    });
+    pages_r.set("Soporte 🐒⚒️", {
+        txt:  "https://discord.gg/RUzsHEKseq",
+        blank: true
+    });
 
     return (
         <AppBar position="static" sx={{background: ""}}>
             <Box className="BoxButtons">
             {
-                Array.from(pages_r.keys()).map((page) => (
-                    <Button key={page} className="NavButton" sx={NavButtonStyle} href={pages_r.get(page)!} >
-                        {page}
-                    </Button>
-                ))
+                Array.from(pages_r.keys()).map((page) => {
+                    var page_map = pages_r.get(page)!;
+                    if(page_map.blank) {
+                        return(
+                            <Button key={page} className="NavButton" sx={NavButtonStyle} href={pages_r.get(page)!.txt} target="_blank">
+                                {page}
+                            </Button>
+                        )
+                    }else {
+                        return(
+                            <Button key={page} className="NavButton" sx={NavButtonStyle} href={pages_r.get(page)!.txt} >
+                                {page}
+                            </Button>
+                        )
+                    }
+                })
             }
           </Box>
         </AppBar>
