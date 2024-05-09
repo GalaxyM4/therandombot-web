@@ -12,17 +12,17 @@ const NavButtonStyle: SxProps = {
 }
 
 export default function NavBar() {
-    const pages_r: Map<string, {txt: string, blank: boolean}> = new Map();
+    const pages_r: Map<string, {ref: string, blank: boolean}> = new Map();
     pages_r.set("Inicio 🦄", {
-        txt:  "/home",
+        ref:  "/home",
         blank: false
     });
     pages_r.set("Comandos 🤓", {
-        txt:  "/chamba",
+        ref:  "/chamba",
         blank: false
     });
     pages_r.set("Soporte 🐒⚒️", {
-        txt:  "https://discord.gg/RUzsHEKseq",
+        ref:  "https://discord.gg/RUzsHEKseq",
         blank: true
     });
 
@@ -34,13 +34,13 @@ export default function NavBar() {
                     var page_map = pages_r.get(page)!;
                     if(page_map.blank) {
                         return(
-                            <Button key={page} className="NavButton" sx={NavButtonStyle} href={pages_r.get(page)!.txt} target="_blank">
+                            <Button key={page} className="NavButton" sx={NavButtonStyle} href={page_map.ref} target="_blank">
                                 {page}
                             </Button>
                         )
                     }else {
                         return(
-                            <Button key={page} className="NavButton" sx={NavButtonStyle} href={pages_r.get(page)!.txt} >
+                            <Button key={page} className="NavButton" sx={NavButtonStyle} href={page_map.ref} >
                                 {page}
                             </Button>
                         )
