@@ -1,0 +1,77 @@
+@keyframes flip-vertical {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes flip-horizontal {
+    from {
+        transform: rotateX(0deg);
+    }
+
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes Rotate-IMG-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes maxwell {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: 0% 100%;
+    }
+
+    25% {
+        transform: rotate(-30deg);
+        transform-origin: 0% 100%;
+    }
+
+    49% {
+        transform: rotate(0deg);
+        transform-origin: 0% 100%;
+    }
+
+    51% {
+        transform: rotate(0deg);
+        transform-origin: 100% 100%;
+    }
+
+    75% {
+        transform: rotate(30deg);
+        transform-origin: 100% 100%;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        transform-origin: 100% 100%;
+    }
+}
+
+.Rotate-IMG {
+    animation: Rotate-IMG-spin 5s infinite linear;
+}
+
+.Image-FlipY {
+    animation: flip-vertical 3s infinite linear;
+}
+
+.Image-FlipX {
+    animation: flip-horizontal 3s infinite linear;
+}
+
+.Maxwell-Anim {
+    animation: maxwell 1s linear infinite;
+}
