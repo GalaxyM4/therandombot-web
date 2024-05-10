@@ -1,19 +1,21 @@
-import cow from '../images/animals/cow.png';
-import dodo from '../images/animals/dodo.png';
-import monkey from '../images/animals/monkey.png';
-import orangutan from "../images/animals/orangutan.png";
-import sheep from "../images/animals/sheep.png";
+import { randomItem } from '../ts/utils';
 
-import cafe from "../images/shitpost/cafe.png";
-import gato from "../images/shitpost/gato_0.png";
-import slungus from "../images/shitpost/slungus.png";
-import tanque from "../images/shitpost/tanque.png";
 export default class ImagesLocal {
-    static getAnimalArray() {
-        return [cow, dodo, monkey, orangutan, sheep];
+    static getAnimal() {
+        var array: string[] = [];
+        var images = ["cow.png", "dodo.png", "monkey.png", "orangutan.png", "sheep.png"];
+        images.forEach(elm => {
+            array.push(require("../images/animals/"+elm));
+        })
+        return randomItem(array);
     }
 
-    static getShitpostArray() {
-        return [cafe, gato, slungus, tanque];
+    static getShitpost() {
+        var array: string[] = [];
+        var images = ["baca_0.jpeg", "baca_1.jpeg", "gato_0.png", "gato_1.png", "gato_2.jpeg", "gato_3.jpeg", "gato_4.jpg", "perro_0.jpeg", "perro_1.jpeg", "slungus.png", "tanque.png", "pez.png", "cursed.jpeg", "cafe.png", "pig.png", "slungus.png", "cuchao.jpeg", "fish.jpeg", "flor.jpeg", "pato.jpeg"];
+        images.forEach(elm => {
+            array.push(require("../images/shitpost/"+elm));
+        })
+        return randomItem(array);
     }
 }
