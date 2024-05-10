@@ -1,12 +1,11 @@
-import RotateImage from '../components/RotateImage';
+import AnimatedImage from '../components/AnimatedImage';
 import ImagesLocal from '../images';
-import { randomItem } from '../ts/utils';
 
 export default function Chamba() {
-  var animals = ImagesLocal.getAnimalArray();
+  var animal = ImagesLocal.getAnimal();
   return (
     <div className="Chamba-Div">
-      <RotateImage image={randomItem(animals)} alt='animal'/>
+      <AnimatedImage image={animal} alt='animal' animation='Rotate-IMG'/>
       <p>Chambiado pe</p>
     </div>
   )

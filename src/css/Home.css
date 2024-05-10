@@ -1,20 +1,18 @@
-#mc-text {
-    font-size: 65%;
-    font-family: "Minecraft";
-    color: yellow;
-}
-
-#row-header {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 100%;
+#description-header {
+    font-size: small;
+    color: #7a7979
 }
 
 .Home {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.Home img {
+    height: 12%;
+    width: 12%;
+    padding: 10px;
 }
 
 .Header-Home {
@@ -27,8 +25,9 @@
     flex-direction: column;
 }
 
-.Header-Home img {
-    width: 10%;
-    height: 10%;
-    padding: 20px;
+.Generic-Row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
 }
