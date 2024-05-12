@@ -14,7 +14,7 @@
         margin: 0;
         padding: 0;
         list-style: none;
-        background: linear-gradient(black, white);
+        background: linear-gradient(90deg,pink, #2031d0 30%);
         overflow: hidden;
     }
 
@@ -66,15 +66,6 @@
     padding: 12px 20px;
     text-decoration: none;
     color: white;
-}
-
-@keyframes background-nav {
-    from{background-color: #4d5ef3;}
-    to {background-color: #1f0054;}
-}
-
-.Nav-Row li:hover {
-    animation: background-nav 0.5s both;
 }
 
 
