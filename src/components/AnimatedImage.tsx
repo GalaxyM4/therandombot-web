@@ -8,5 +8,8 @@ export default function AnimatedImage({image, animation, alt}: {image: string, a
         var possible: AnimationImage[] = ["Image-FlipX", "Image-FlipY", "Rotate-IMG", "Maxwell-Anim"];
         animation = randomItem(possible);
     }
+    if(alt === "gato_4.jpg") {
+        animation = "Maxwell-Anim";
+    }
     return <img src={image} className={animation} alt={alt} />;
 }

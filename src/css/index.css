@@ -1,4 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/minecraft-3");
+@import url("./Buttons.css");
 
 body {
   margin: 0;
@@ -7,6 +8,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: medium;
 }
 
 h2 {
