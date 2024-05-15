@@ -31,7 +31,7 @@
         padding: 12px 20px;
         display: block;
         float: left;
-        line-height: 25.5px;
+        line-height: 20px;
         font-size: 45px;
     }
 
@@ -95,4 +95,9 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.Header-Home h1 {
+    font-size: 45px;
+    text-align: center;
 }
