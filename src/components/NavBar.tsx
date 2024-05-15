@@ -12,7 +12,6 @@ export default function NavBar() {
         ref:  "/home",
         blank: false
     });
-    
 
     return (
         <ul className="Nav-Row">
