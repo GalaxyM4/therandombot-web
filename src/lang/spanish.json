@@ -73,6 +73,9 @@
             "Ahora el canal {1} esta funcionando como {2}",
             "El canal {1} ahora funciona como {2}"
         ],
+        "role_set": [
+            "Rol {1} ahora funciona como {2}"
+        ],
         "guild_added": [
             "Ya llegó el mas pro 👻👻👻",
             "Hola pe, ya vine.",
@@ -90,6 +93,11 @@
         ]
     },
     "error": {
+        "info": {
+            "no_exist_channel": "<:error:1240654139420053546> El canal no existe, o fué eliminado.",
+            "no_permission_channel": "<:error:1240654139420053546> No tengo el permiso `{1}` para el canal {2}.",
+            "no_webhook": "<:error:1240654139420053546> La webhook del canal {1} no existe, vuelve a establecer el canal."
+        },
         "limit_char": [
             "No, muchos caracteres",
             "Límite de 3800 caracteres 🦤",
@@ -147,11 +155,19 @@
             "Che loco, necesito el permiso {1} si quieres ejecutar eso.",
             "Mi rey, necesito el permiso {1} para poder ejecutar ese comando.",
             "Si no me das el permiso {1} no puedo ejecutar el comando 🗣️"
+        ],
+        "user_no_permissions": [
+            "Mi loco, necesita el permiso {1} para ejecutar el comando.",
+            "Che 👃, necesitas permisos ({1}) para ejecutar eso.",
+            "Pe 🕊️, necesitas permisos ({1}) para ejecutar eso",
+            "Hola 🦤, necesitas el permiso {1} para ejecutarlo.",
+            "Si no sabías el permiso {1} es necesario para ejecutar el comando."
         ]
     },
     "random": {
         "content": [
-            "1 + 1 = 11 🧠", "A ese lo violaron 2 perrros",
+            "1 + 1 = 11 🧠",
+            "A ese lo violaron 2 perrros",
             "Hola soy omelo chino",
             "Hablen pe",
             "Al de arriba reaccionenle con una 🍇",
@@ -228,13 +244,20 @@
             "rayos y centellas",
             "los tiempos cambian pedrín",
             "ojeva 🐑",
+            "callabo 🐎",
             "cfffff",
             "aaaa juñiga",
             "get out of my head",
             "amog",
             "tu papá es tu papá 🦍",
             "15 años tenía tu hermana",
-            "maldito invierno del 92"
+            "maldito invierno del 92",
+            "tengo 5 millones de poder en rise of kindom",
+            "borren el server",
+            "habían mejores conversaciones en 4chan",
+            "Callate pobre",
+            "y esta zorra de donde salió",
+            "y esta burra de donde salió"
         ],
         "users": {
             "Pomni": "https://cdn.discordapp.com/attachments/1237396848260546580/1237396930569441350/pomni.png",
@@ -263,7 +286,16 @@
             "Obunga": "https://cdn.discordapp.com/attachments/1237396848260546580/1238697913119412255/latest.png",
             "Momazos Pablo": "https://cdn.discordapp.com/attachments/1237396848260546580/1238880211404066969/51f92c65-c892-43e0-9402-8b349ecf5632-1708130316480.png",
             "Javier Momos": "https://cdn.discordapp.com/attachments/1237396848260546580/1238880364378853480/63700b52072ef.png",
-            "Mr Graso": "https://cdn.discordapp.com/attachments/1237396848260546580/1238880555362160720/5XAe8etgNzDEbLFcoGSEVFcj_UVnrjgd3n1oAd5y00-xEZdD2CyDdJn9txa_QROdCHKoApVRMzIs900-c-k-c0x00ffffff-no-rj.png"
+            "Mr Graso": "https://cdn.discordapp.com/attachments/1237396848260546580/1238880555362160720/5XAe8etgNzDEbLFcoGSEVFcj_UVnrjgd3n1oAd5y00-xEZdD2CyDdJn9txa_QROdCHKoApVRMzIs900-c-k-c0x00ffffff-no-rj.png",
+            "Girasol": "https://cdn.discordapp.com/attachments/1237396848260546580/1241031343991820288/images.png",
+            "Shrek": "https://media.discordapp.net/attachments/1237396848260546580/1241031887460237402/latest.png",
+            "Tamaulipas": "https://cdn.discordapp.com/attachments/1237396848260546580/1241032490936696912/Tamaulipas.png",
+            "Mi reacción": "https://cdn.discordapp.com/attachments/1237396848260546580/1241033236830883920/8h55gv.png",
+            "Bob Esponja": "https://cdn.discordapp.com/attachments/1237396848260546580/1241034793110605834/images.png",
+            "Flint Loco": "https://cdn.discordapp.com/attachments/1237396848260546580/1241043183463436345/755.png",
+            "Callate Pobre": "https://cdn.discordapp.com/attachments/1237396848260546580/1241043964291973223/descarga.jpeg",
+            "Charles": "https://cdn.discordapp.com/attachments/1237396848260546580/1241044365938393108/chaplin340a.png",
+            "Einstein": "https://cdn.discordapp.com/attachments/1237396848260546580/1241045207391277089/image.png"
         }
     },
     "activity": {
