@@ -8,8 +8,8 @@ export default function FooterHome() {
             <div className="Generic-Row">
                 <div className="Generic-Column">
                     <h5>Apoyo</h5>
-                    <a href="https://top.gg/bot/756533812703395921/vote" target="_blank">Top.gg</a>
-                    <a href="https://buymeacoffee.com/galaxym4" target="_blank">Buy Me a Coffe</a>
+                    <a href="https://top.gg/bot/756533812703395921/vote" target="_blank" rel="noopener noreferrer">Top.gg</a>
+                    <a href="https://buymeacoffee.com/galaxym4" target="_blank" rel="noopener noreferrer">Buy Me a Coffe</a>
                 </div>
                 
                 <div className="Generic-Column">
@@ -20,14 +20,14 @@ export default function FooterHome() {
             </div>
 
             <div id="footer_links">
-                <a  href="https://discord.gg/RUzsHEKseq" target="_blank">
-                    <img src={dc_icon}/>
+                <a  href="https://discord.gg/RUzsHEKseq" target="_blank" rel="noopener noreferrer">
+                    <img src={dc_icon} alt="Discord Link"/>
                 </a>
-                <a  href="https://github.com/GalaxyM4/therandombot-web" target="_blank">
-                    <img src={gh_icon}/>
+                <a  href="https://github.com/GalaxyM4/therandombot-web" target="_blank" rel="noopener noreferrer">
+                    <img src={gh_icon} alt="Github Link"/>
                 </a>
-                <a  href="https://youtube.com/channel/UCHzvFcnNAGeVIQxN_u3GzUg" target="_blank">
-                    <img src={yt_icon}/>
+                <a  href="https://youtube.com/channel/UCHzvFcnNAGeVIQxN_u3GzUg" target="_blank" rel="noopener noreferrer">
+                    <img src={yt_icon} alt="YouTube Link"/>
                 </a>
             </div>
             <p>The Random BOT web by GalaxyM4</p>
