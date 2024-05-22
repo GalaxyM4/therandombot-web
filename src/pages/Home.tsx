@@ -9,7 +9,6 @@ import ButtonLocal from "../components/Button";
 import Article from "../components/Article";
 import TextFont from "../components/Text";
 
-
 export default function Home() {
   var image_0 = ImagesLocal.getShitpost();
   var image_1 = ImagesLocal.getShitpost();
