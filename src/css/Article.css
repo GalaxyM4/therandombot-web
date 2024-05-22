@@ -3,14 +3,14 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        text-align: end;
+        margin: auto;
         width: 50%;
-        padding: 7%;
+        text-align: end;
     }
 
     .Article-BOT img {
-        width: 40%;
-        height: 40%;
+        width: 20%;
+        height: 20%;
     }
 }
 
