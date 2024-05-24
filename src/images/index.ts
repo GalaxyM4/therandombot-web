@@ -11,17 +11,17 @@ export default class ImagesLocal {
         var choosed = randomItem(images);
     
         return {
-            img: require("../images/animals/"+choosed),
+            img: require("./animals/"+choosed),
             name: choosed
         };
     }
 
     static getShitpost(): ImageFormat {
-        var images = ["baca_0.jpeg", "baca_1.jpeg", "gato_0.png", "gato_1.png", "gato_2.jpeg", "gato_3.jpeg", "gato_4.jpg", "perro_0.jpeg", "perro_1.jpeg", "tanque.png", "pez.png", "cursed.jpeg", "cafe.png", "pig.png", "slungus.png", "cuchao.jpeg", "fish.jpeg", "flor.jpeg", "pato.jpeg"];
+        var images = ["baca_0.jpeg", "baca_1.jpeg", "buuu.jpeg", "como.jpeg", "cuchao.jpeg", "cursed.jpeg", "fish.jpeg", "flor.jpeg", "ganso.jpeg", "gato_2.jpeg", "gato_3.jpeg", "gato_5.jpeg", "gato_6.jpeg", "gato_7.jpeg", "moai.jpeg", "pato.jpeg", "perro_0.jpeg", "perro_1.jpeg", "pollo.jpeg", "caballo.jpg", "gato_4.jpg", "roblox.jpg", "cafe.png", "gato_0.png", "gato_1.png", "oscar.png", "pez.png", "pig.png", "slungus.png", "tanque.png"];
         var choosed = randomItem(images);
     
         return {
-            img: require("../images/shitpost/"+choosed),
+            img: require("./shitpost/"+choosed),
             name: choosed
         };
     }
