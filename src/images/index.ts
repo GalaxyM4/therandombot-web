@@ -7,7 +7,7 @@ interface ImageFormat {
 
 export default class ImagesLocal {
     static getAnimal(): ImageFormat {
-        var images = ["bison.png", "chicken.png", "cow.png", "dodo.png", "giraffe.png", "goose.png", "horse.png", "llama.png", "monkey.png", "orangutan.png", "penguin.png", "pig.png", "rooster.png", "sheep.png"];
+        var images = ["bison.png", "gatroste.png", "chicken.png", "cow.png", "dodo.png", "giraffe.png", "goose.png", "horse.png", "llama.png", "monkey.png", "orangutan.png", "penguin.png", "pig.png", "rooster.png", "sheep.png"];
         var choosed = randomItem(images);
     
         return {
