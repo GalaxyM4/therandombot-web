@@ -9,9 +9,9 @@ import ButtonLocal from "../components/Button";
 import Article from "../components/Article";
 import TextFont from "../components/Text";
 
+var image_0 = ImagesLocal.getShitpost();
+var image_1 = ImagesLocal.getShitpost();
 export default function Home() {
-  var image_0 = ImagesLocal.getShitpost();
-  var image_1 = ImagesLocal.getShitpost();
   return (
     <div className="Home">
       <section className="Header-Home">     

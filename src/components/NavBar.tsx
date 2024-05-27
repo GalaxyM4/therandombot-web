@@ -9,7 +9,7 @@ export default function NavBar() {
         blank: false
     });
     pages_r.set("Inicio", {
-        ref:  "/home",
+        ref:  "/",
         blank: false
     });
 

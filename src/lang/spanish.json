@@ -1,5 +1,8 @@
 {
     "commands": {
+        "help": {
+            "embedTitle": "Lista de comandos."
+        },
         "ball8": {
             "embedName": ["8ball", "La wea aleatoria", "el dado ese", "ese w", "Respuesta toda aleatoria", "Salu24"],
             "embedDescription": [
@@ -11,6 +14,12 @@
                 "che si vas a preguntar eso, mejor andate del universo",
                 "yo opino que lo violemos",
                 "por eso odio a los ",
+                "no cuentes con ello",
+                "baneenlo del universo",
+                "baneenlo de la vida",
+                "te digo la verdad o seguimos siendo amigos",
+                "voy a decir que si para que se calle",
+                "ese burro q",
                 "jaja what a pendejo",
                 "no cuentes con ello",
                 "te diría que no, pero como me caes bien te digo que no",
@@ -62,8 +71,47 @@
                 "That pendejo",
                 "What a pendejo",
                 "Máquina traga perras",
-                "Eso q", "A ese lo violaron 2 perrros"
+                "Eso q",
+                "A ese lo violaron 2 perrros",
+                "habían mejores doxeos en 4chan",
+                "waos",
+                "¿por qué?",
+                "🗿",
+                "que tu padres el "
             ]
+        },
+        "donate": {
+            "content": "Si querés apoyarme con este proyecto, podés [donarme](https://buymeacoffee.com/galaxym4), se agradece cualquier ayuda 🥺"
+        },
+        "config_info": {
+            "channel_random": "<#{1}> - se enviará un mensaje aleatorio a las {2} horas GMT.",
+            "role_staff": "<@{1}> - funcionando como rol para el staff.",
+            "no_exist": "No especificado",
+            "role_no_exist": "No especificado, se usará el permiso de `Administrar Servidor` para los comandos de configuración.",
+            "embedTitle": "Configuración del servidor"
+        },
+        "random_user_text": {
+            "success": "Ya 🐒, por favor considera [votar](<https://top.gg/bot/756533812703395921/vote>) el bot en top.gg 🗿",
+            "error": "El canal no fué especificado, usa `/config channel-random` para configurarlo."
+        },
+        "minigame_tic_tac_toe": {
+            "pvp": [
+                "hola {1}, sale un pvp",
+                "pvp o miedo {1}?",
+                "un tresenraya o k {1}",
+                "{1} un pvp",
+                "{1}, sale un pebepe?",
+                "{1} wenas, pvp?",
+                "{1} 1vs1 el que pierde es gei",
+                "hola 🥺, {1}"
+            ],
+            "no_pvp": [
+                "esa gallina rechazó el pvp",
+                "no es insano, rechazó la partida",
+                "mas miedoso, le tuvo miedo al tres en raya",
+                "PVP rechazado"
+            ],
+            "timeout": "El burro tardó mucho en hacer una jugada."
         }
     },
     "success": {
@@ -89,7 +137,13 @@
             "HOLA, QUIERES JUGAR VIDEOJUEGOS",
             "Todos mancos yo pro, (ya vine)",
             "Que skibididiantres es esto",
-            "Hola 😊 ||soy nuebo||"
+            "Hola 😊 ||soy nuebo||",
+            "Todos nius ni uno old",
+            "HOLA SOI NUEBO",
+            "No me esclavizen por favor",
+            "Wenas",
+            "Ola 🌊:flag_bo:",
+            "Me estan esclavizando ayuda"
         ]
     },
     "error": {
@@ -165,6 +219,36 @@
         ]
     },
     "random": {
+        "insults": [
+            "burro",
+            "yegua",
+            "mula",
+            "patatudo",
+            "manco",
+            "tragapollas",
+            "boludo",
+            "boluda",
+            "pendejo",
+            "animal",
+            "unineuronal",
+            "zorra",
+            "burra",
+            "aneuronal",
+            "pequeña deprabada",
+            "loco",
+            "palurdo",
+            "alelado",
+            "lerdo",
+            "mierdin",
+            "zorrita",
+            "boliviano",
+            "peruano",
+            "argentino",
+            "ecuatoriano",
+            "mexicano",
+            "w",
+            "l"
+        ],
         "content": [
             "1 + 1 = 11 🧠",
             "A ese lo violaron 2 perrros",
@@ -196,10 +280,13 @@
             "OLA\nTienes nobio",
             "esa bandera no está en el fifa",
             "Como amanecio la princesa más hermosa\nDe todo mundo de Roblox",
-            "Eres gei?", "Por eso se mueren",
+            "Eres gei?",
+            "Por eso se mueren",
             "Albion online es un mmorpg no lineal, en el que escribes tu propia historia sin limitarte a seguir un camino prefijado.",
-            "you are my sunshine", "asdf",
-            "yo no lo descargo porque ya lo tengo", "eso tilín",
+            "you are my sunshine",
+            "asdf",
+            "yo no lo descargo porque ya lo tengo",
+            "eso tilín",
             "el pepe",
             "fotosintesis",
             "JIJIJIJA",
@@ -245,6 +332,7 @@
             "los tiempos cambian pedrín",
             "ojeva 🐑",
             "callabo 🐎",
+            "golira 🦍",
             "cfffff",
             "aaaa juñiga",
             "get out of my head",
@@ -257,7 +345,39 @@
             "habían mejores conversaciones en 4chan",
             "Callate pobre",
             "y esta zorra de donde salió",
-            "y esta burra de donde salió"
+            "y esta burra de donde salió",
+            "que tu padres el ",
+            "decadencia en cuenta",
+            "oigan pibes como se escribe",
+            "cuantas copas tenés?",
+            "Callen a ese burro",
+            "Skibidi causa",
+            "hola tonoto",
+            "pegenme un tiro",
+            "Era joda",
+            "objeto o pastel",
+            "baneenlo por ",
+            "largate del grupo",
+            "eso que pendejo",
+            "no puedo tengo fulvo",
+            "my reaction to that pendejada",
+            "fotosíntesis",
+            "que sea la última vez",
+            "el de las recargas",
+            "?",
+            "el diavlo",
+            "k leches",
+            "COMOOOOO",
+            "Nose\nespero aberte ayudado",
+            "pinche grupo muerto",
+            "grupo todo hermoso",
+            "el que cobra los pasajes",
+            "piola",
+            "baneen a los furros",
+            "a bueno no sabía",
+            "* imagen chistosa *",
+            "chococripsi",
+            "that w"
         ],
         "users": {
             "Pomni": "https://cdn.discordapp.com/attachments/1237396848260546580/1237396930569441350/pomni.png",
