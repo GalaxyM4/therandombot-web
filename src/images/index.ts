@@ -9,19 +9,33 @@ export default class ImagesLocal {
     static getAnimal(): ImageFormat {
         var images = ["bison.png", "gatroste.png", "chicken.png", "cow.png", "dodo.png", "giraffe.png", "goose.png", "horse.png", "llama.png", "monkey.png", "orangutan.png", "penguin.png", "pig.png", "rooster.png", "sheep.png"];
         var choosed = randomItem(images);
-    
+
         return {
-            img: require("./animals/"+choosed),
+            img: require("./animals/" + choosed),
             name: choosed
         };
     }
 
     static getShitpost(): ImageFormat {
-        var images = ["baca_0.jpeg", "baca_1.jpeg", "buuu.jpeg", "como.jpeg", "cuchao.jpeg", "cursed.jpeg", "fish.jpeg", "flor.jpeg", "ganso.jpeg", "gato_2.jpeg", "gato_3.jpeg", "gato_5.jpeg", "gato_6.jpeg", "gato_7.jpeg", "moai.jpeg", "pato.jpeg", "perro_0.jpeg", "perro_1.jpeg", "pollo.jpeg", "caballo.jpg", "gato_4.jpg", "roblox.jpg", "cafe.png", "gato_0.png", "gato_1.png", "oscar.png", "pez.png", "pig.png", "slungus.png", "tanque.png"];
+        var images = [
+            'ase frio.jpg', 'baca (2).jpeg', 'baca.jpeg',
+            'buuu.jpeg', 'caballo.jpg', 'cafe.png',
+            'cocodrilo.jpeg', 'como.jpeg', 'cuchao.jpeg',
+            'cursed.jpeg', 'debate.jpeg', 'fish.jpeg',
+            'flor.jpeg', 'ganso.jpeg', 'gato (2).jpeg',
+            'gato (2).png', 'gato (3).jpeg', 'gato (4).jpeg',
+            'gato (5).jpeg', 'gato (6).jpeg', 'gato (7).jpeg',
+            'gato (8).jpeg', 'gato.jpeg', 'gato.jpg',
+            'gato.png', 'moai.jpeg', 'monky.jpg',
+            'oscar.png', 'pato.jpeg', 'perro (2).jpeg',
+            'perro.jpeg', 'pez.png', 'pig.png',
+            'pollo.jpeg', 'roblox.jpg', 'slungus.png',
+            'tanque.png'
+        ]
         var choosed = randomItem(images);
-    
+
         return {
-            img: require("./shitpost/"+choosed),
+            img: require("./shitpost/" + choosed),
             name: choosed
         };
     }
