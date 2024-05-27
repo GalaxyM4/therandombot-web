@@ -89,6 +89,29 @@
             "no_exist": "No especificado",
             "role_no_exist": "No especificado, se usará el permiso de `Administrar Servidor` para los comandos de configuración.",
             "embedTitle": "Configuración del servidor"
+        },
+        "random_user_text": {
+            "success": "Ya 🐒, por favor considera [votar](<https://top.gg/bot/756533812703395921/vote>) el bot en top.gg 🗿",
+            "error": "El canal no fué especificado, usa `/config channel-random` para configurarlo."
+        },
+        "minigame_tic_tac_toe": {
+            "pvp": [
+                "hola {1}, sale un pvp",
+                "pvp o miedo {1}?",
+                "un tresenraya o k {1}",
+                "{1} un pvp",
+                "{1}, sale un pebepe?",
+                "{1} wenas, pvp?",
+                "{1} 1vs1 el que pierde es gei",
+                "hola 🥺, {1}"
+            ],
+            "no_pvp": [
+                "esa gallina rechazó el pvp",
+                "no es insano, rechazó la partida",
+                "mas miedoso, le tuvo miedo al tres en raya",
+                "PVP rechazado"
+            ],
+            "timeout": "El burro tardó mucho en hacer una jugada."
         }
     },
     "success": {
@@ -196,6 +219,36 @@
         ]
     },
     "random": {
+        "insults": [
+            "burro",
+            "yegua",
+            "mula",
+            "patatudo",
+            "manco",
+            "tragapollas",
+            "boludo",
+            "boluda",
+            "pendejo",
+            "animal",
+            "unineuronal",
+            "zorra",
+            "burra",
+            "aneuronal",
+            "pequeña deprabada",
+            "loco",
+            "palurdo",
+            "alelado",
+            "lerdo",
+            "mierdin",
+            "zorrita",
+            "boliviano",
+            "peruano",
+            "argentino",
+            "ecuatoriano",
+            "mexicano",
+            "w",
+            "l"
+        ],
         "content": [
             "1 + 1 = 11 🧠",
             "A ese lo violaron 2 perrros",
@@ -323,7 +376,8 @@
             "baneen a los furros",
             "a bueno no sabía",
             "* imagen chistosa *",
-            "chococripsi"
+            "chococripsi",
+            "that w"
         ],
         "users": {
             "Pomni": "https://cdn.discordapp.com/attachments/1237396848260546580/1237396930569441350/pomni.png",
